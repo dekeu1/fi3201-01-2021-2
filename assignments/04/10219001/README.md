@@ -84,10 +84,10 @@ Modifikasi program yang diberikan sehingga dapat menggambarkan gelombang yang me
 ### answer 2
 Potongan kode yang perlu disisipkan adalah
 ```
-y = np.sin(2 * np.pi * (x * 0.5 - 0.5 *0.01 * i)) # Ke kanan T = 2, Lambda = 2
+  y = np.sin(np.pi (x - t))
 ```
 dan hasil berkas gifnya adalah \
-https://github.com/dekeu1/fi3201-01-2021-2/blob/main/assignments/Assignments-4-2.gif
+![Assignments-4-2.gif]()
 
 ## question 3
 Modifikasi program yang diberikan sehingga dapat menggambarkan gelombang yang merambat ke kiri dengan panjang gelombang &lambda; = 2 m dan periode T = 2 s. Perolehlah pula berkas gif hasilnya.
@@ -95,10 +95,10 @@ Modifikasi program yang diberikan sehingga dapat menggambarkan gelombang yang me
 ### answer 3
 Potongan kode yang perlu disisipkan adalah
 ```
-y = np.sin(2 * np.pi * (x * 0.5 + 0.5 * 0.01 * i)) # Ke kiri T = 2, Lambda = 2
+  y = np.sin(np.pi (x + t))
 ```
 dan hasil berkas gifnya adalah \
-https://github.com/dekeu1/fi3201-01-2021-2/blob/main/assignments/Assignments-4-3.gif
+![Assignments-4-3.gif]()
 
 ## question 4
 Modifikasi program yang diberikan sehingga dapat menggambarkan gelombang stasioner yang tidak merambat dengan panjang gelombang &lambda; = 2 m dan periode T = 2 s. Perolehlah pula berkas gif hasilnya.
@@ -106,7 +106,7 @@ Modifikasi program yang diberikan sehingga dapat menggambarkan gelombang stasion
 ### answer 4
 Potongan kode yang perlu disisipkan adalah
 ```
-y = np.sin(2 * np.pi * x * 0.5) * np.cos(2 * np.pi * 0.5 *0.01 * i) # Stasioner T = 2, Lambda = 2
+ y = np.sin(np.pi * x) * np.cos(np.pi * t)
 ```
 dan hasil berkas gifnya adalah \
-https://github.com/dekeu1/fi3201-01-2021-2/blob/main/assignments/Assignments-4-4.gif
+![Assignments-4-4.gif]()
