@@ -55,7 +55,7 @@ anim = animation.FuncAnimation(fig, animate, init_func=init,
 # url https://jakevdp.github.io/downloads/code/basic_animation.py
 
 # modification from Sparisoma Viridi 2022-03-29
-option = 1
+option = 0
 
 if option == 0:
 	writergif = animation.PillowWriter(fps=30)
@@ -72,7 +72,7 @@ yang dapat diperoleh di <https://jakevdp.github.io/downloads/code/basic_animatio
 Baca penjelasan mengenai kode di atas pada <https://dudung.github.io/bugx/0026/> atau pada pertemuan kuliah terkait.
 
 ### answer 1
-Apakah penjelasan kode dia atas sudah dibaca atau hadir pada kuliah?
+Apakah penjelasan kode diatas sudah dibaca atau hadir pada kuliah?
 ```
 Sudah dan hadir
 ```
@@ -86,7 +86,7 @@ Potongan kode yang perlu disisipkan adalah
 y = np.sin(2 * np.pi * (x * 0.5 - 0.5 *0.01 * i)) # Ke kanan T = 2, Lambda = 2
 ```
 dan hasil berkas gifnya adalah \
-![gif file from simulation wave to right]()
+![10219001/Jawaban-2.gif]()
 
 
 ## question 3
@@ -98,7 +98,7 @@ Potongan kode yang perlu disisipkan adalah
 y = np.sin(2 * np.pi * (x * 0.5 + 0.5 * 0.01 * i)) # Ke kiri T = 2, Lambda = 2
 ```
 dan hasil berkas gifnya adalah \
-![gif file from simulation wave to left]()
+![10219001/Jawaban-3.gif]()
 
 
 ## question 4
@@ -110,4 +110,4 @@ Potongan kode yang perlu disisipkan adalah
 y = np.sin(2 * np.pi * x * 0.5) * np.cos(2 * np.pi * 0.5 *0.01 * i) # Stasioner T = 2, Lambda = 2
 ```
 dan hasil berkas gifnya adalah \
-![gif file from simulation wave stationary]()
+![10219001/Jawaban-4.gif]()
