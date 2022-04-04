@@ -1,13 +1,3 @@
-"""
-Matplotlib Animation Example
-
-author: Jake Vanderplas
-email: vanderplas@astro.washington.edu
-website: http://jakevdp.github.com
-license: BSD
-Please feel free to use and modify this, but keep the above information. Thanks!
-"""
-
 import numpy as np
 from matplotlib import pyplot as plt
 from matplotlib import animation
@@ -59,4 +49,3 @@ if option == 0:
 # anim.save('basic_animation.mp4', fps=30, extra_args=['-vcodec', 'libx264'])
 else:
 	plt.show()
-
