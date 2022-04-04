@@ -29,6 +29,7 @@ def init():
 # animation function.  This is called sequentially
 def animate(i):
     x = np.linspace(0, 2, 1000)
+    y = np.sin(np.pi * (x-i))
 		
 		# ---- equation of y ----
 		
@@ -86,8 +87,7 @@ Potongan kode yang perlu disisipkan adalah
 y = np.sin(2 * np.pi * (x * 0.5 - 0.5 *0.01 * i)) # Ke kanan T = 2, Lambda = 2
 ```
 dan hasil berkas gifnya adalah \
-![10219001/Jawaban-2.gif]()
-
+![
 
 ## question 3
 Modifikasi program yang diberikan sehingga dapat menggambarkan gelombang yang merambat ke kiri dengan panjang gelombang &lambda; = 2 m dan periode T = 2 s. Perolehlah pula berkas gif hasilnya.
@@ -98,7 +98,6 @@ Potongan kode yang perlu disisipkan adalah
 y = np.sin(2 * np.pi * (x * 0.5 + 0.5 * 0.01 * i)) # Ke kiri T = 2, Lambda = 2
 ```
 dan hasil berkas gifnya adalah \
-![10219001/Jawaban-3.gif]()
 
 
 ## question 4
@@ -110,4 +109,3 @@ Potongan kode yang perlu disisipkan adalah
 y = np.sin(2 * np.pi * x * 0.5) * np.cos(2 * np.pi * 0.5 *0.01 * i) # Stasioner T = 2, Lambda = 2
 ```
 dan hasil berkas gifnya adalah \
-![10219001/Jawaban-4.gif]()
